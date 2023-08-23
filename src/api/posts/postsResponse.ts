@@ -1,4 +1,4 @@
-export interface Post {
+export interface IPost {
   id: number;
   date: Date;
   date_gmt: Date;
