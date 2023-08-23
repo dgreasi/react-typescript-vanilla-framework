@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# react-typescript-vanilla-framework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple react-typescript project that is utilizing the vanilla framework.
+
 
 ## Installation
 
 ```shell
+# Node environment >= 16
+nvm use 16
+
+# Install packages
 npm i
 # OR
 yarn
