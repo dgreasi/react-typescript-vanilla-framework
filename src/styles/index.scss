@@ -1,6 +1,12 @@
 // Include all of Vanilla Framework*/
 @import 'vanilla-framework';
+// Import the framework
+@import 'node_modules/vanilla-framework';
+// Import the theme
+@import 'vanilla-framework/scss/build';
 @include vanilla;
+
+@import './layout';
 
 body {
   margin: 0;
