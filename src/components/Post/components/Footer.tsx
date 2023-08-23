@@ -6,9 +6,9 @@ interface Props {
 
 export const Footer = ({ type }: Props) => {
   return (
-    <div style={{ paddingTop: 0, paddingBottom: 0 }}>
+    <div>
       <hr className="u-sv1" />
-      <p className="textAlignLeft" style={{ textTransform: 'capitalize' }}>{type}</p>
+      <p className="textAlignLeft marginBottom0" style={{ textTransform: 'capitalize' }}>{type}</p>
     </div>
   );
 };
